@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 class Main {
   public static void main(String[] args) {
-    Flight plane = new Flight ("Gdansk", "Warsaw");
+    Flight plane = new Flight ("Warsaw", "Gdansk");
     System.out.println ("");
     System.out.println ("Flight from " + plane.departue + " to " + plane.arrival);
     System.out.println ("");
@@ -14,14 +16,9 @@ class Main {
 
     /// < komentarz 2-7... ponowione wyświetlanie tekstu - odniesienie do kodu z klasy Flight >
 
-    String first = new String ("test");
-    String second = new String ("test");
-    if (first.equals(second)) {
-      System.out.println ("Cities are the same.");
-    } else {
-      System.out.println ("Cities are different.");
-    }
-
+    FlightDatabase database = new FlightDatabase ();
+    database.checkIfFlightExist ("Warsaw", "Gdansk");
+    
     /// < komentarz 3-7... powyższy kod do poprawy >
   }
 }
