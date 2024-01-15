@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 /// < komentarz 1-40... import do Java wszystkich kolekcji, zestawów, list, kolejek i map do głównej klasy Main >
 
