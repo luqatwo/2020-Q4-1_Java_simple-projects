@@ -13,20 +13,20 @@ class MobilePhone {
   
    ///public void displayValues () {
      /// System.out.println ("");
-     /// < komentarz 13-24... dodatkowa pusta linijka >
+     /// < komentarz 13-22... dodatkowa pusta linijka >
      /// System.out.println (this.brand + " - the highest quality: " + this.weight + " - shop for $" + this.price + " in LUQASZ SHOP!");
      /// System.out.println ("");
-     /// < komentarz 14-24... dodatkowa pusta linijka >
+     /// < komentarz 14-22... dodatkowa pusta linijka >
   /// }
 
-  /// < komentarz 15-24... ponowione wyświetlanie tekstu (brand, weight, price) - odniesienie do kodu z głównej klasy Main >
+  /// < komentarz 15-22... ponowione wyświetlanie tekstu (brand, weight, price) - odniesienie do kodu z głównej klasy Main >
 
   
   /// public String getParameters () {
     /// return this.brand + " - the highest quality: " + this.weight + " - shop for $" + this.price + " in LUQASZ SHOP!";
   /// }
 
-  /// < komentarz 16-24... ponowione wyświetlanie tekstu (brand, weight, price) - odniesienie do kodu z głównej klasy Main >
+  /// < komentarz 16-22... ponowione wyświetlanie tekstu (brand, weight, price) - odniesienie do kodu z głównej klasy Main >
 
   public void displayValues () {
     System.out.println (this.weight + "" + this.price);
@@ -42,7 +42,7 @@ class MobilePhone {
       System.out.println ("Buy and start to use the latest LuqaszPhone 3s LTE phone - see the future thanks to the latest technology hidden in the phone... for a new price!");
     }
     
-    /// < komentarz 17-24... weryfikowanie, sprawdzanie ceny poszczególnych telefonów komórkowych LuqaszPhone przy wykorzystaniu warunku (w tym przypadku jeśli jest cena wyższa niż 500 oraz przecena mniejsza niż 15 wyświetl tekst) - odniesienie do kodu z głównej klasy Main >
+    /// < komentarz 17-22... weryfikowanie, sprawdzanie ceny poszczególnych telefonów komórkowych LuqaszPhone przy wykorzystaniu warunku (w tym przypadku jeśli jest cena wyższa niż 500 oraz przecena mniejsza niż 15 wyświetl tekst) - odniesienie do kodu z głównej klasy Main >
     
     if (this.price < 300) {
       System.out.println ("");
@@ -62,7 +62,7 @@ class MobilePhone {
     }
   }
   
-  /// < komentarz 18-24... weryfikowanie, sprawdzanie ceny poszczególnych telefonów komórkowych LuqaszPhone przy wykorzystaniu warunku (w tym przypadku wykorzystano kilka warunków, zamiast jednego, złożonego i długiego warunku - odniesienie do kodu z głównej klasy Main >
+  /// < komentarz 18-22... weryfikowanie, sprawdzanie ceny poszczególnych telefonów komórkowych LuqaszPhone przy wykorzystaniu warunku (w tym przypadku wykorzystano kilka warunków, zamiast jednego, złożonego i długiego warunku - odniesienie do kodu z głównej klasy Main >
   
   public void text0 () {
     System.out.println ("");
@@ -77,7 +77,7 @@ class MobilePhone {
     }
   }
 
-  /// < komentarz 19-24... wyświetlanie poszczególnych numerów z zakresów min i max, które są podzielne przez liczbę 3 - odniesienie do kodu z głównej klasy Main >
+  /// < komentarz 19-22... wyświetlanie poszczególnych numerów z zakresów min i max, które są podzielne przez liczbę 3 - odniesienie do kodu z głównej klasy Main >
   
   public void text1 () {
     System.out.println ("");
@@ -100,7 +100,7 @@ class MobilePhone {
     }
   }
   
-  /// < komentarz 20-24 [B1.2]... wyświetlanie liczb z zakresów min i max (4,18 oraz 3,12), które są podzielne przez liczbę 3 (dla 4,18) oraz 5 (dla 3,12) - odniesienie do kodu z głównej klasy Main >
+  /// < komentarz 20-22 [B1.2]... wyświetlanie liczb z zakresów min i max (4,18 oraz 3,12), które są podzielne przez liczbę 3 (dla 4,18) oraz 5 (dla 3,12) - odniesienie do kodu z głównej klasy Main >
   
   public void text2 () {
     System.out.println ("");
@@ -115,7 +115,7 @@ class MobilePhone {
     }
   }
   
-  /// < komentarz 21-24 [B2.2]... wyświetlanie liczb parzystych z zakresów min i max (5,9), które są podzielne przez 2 - odniesienie do kodu z głównej klasy Main >
+  /// < komentarz 21-22 [B2.2]... wyświetlanie liczb parzystych z zakresów min i max (5,9), które są podzielne przez 2 - odniesienie do kodu z głównej klasy Main >
 
   public void text3 () {
     System.out.println ("");
@@ -134,10 +134,6 @@ class MobilePhone {
     System.out.println ("What are you waiting for?! Come and be the first person, who will own the latest technology! Don't wait and get it... right now!");
   }
   
-  /// < komentarz 22-24 [B3.2]... wyświetlanie wszystkich liczb z zakresów min i max (5,9) w kolejności malejącej - odniesienie do kodu z głównej klasy Main >
-
-  /// < komentarz 23-24... do uzupełnienia w przypadku dodania nowych linijek kodu >
-
-  /// < komentarz 24-24... do uzupełnienia w przypadku dodania nowych linijek kodu >
+  /// < komentarz 22-22 [B3.2]... wyświetlanie wszystkich liczb z zakresów min i max (5,9) w kolejności malejącej - odniesienie do kodu z głównej klasy Main >
 
 }
